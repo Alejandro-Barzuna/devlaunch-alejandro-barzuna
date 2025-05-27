@@ -2,3 +2,8 @@
 
 Bitcoin es una moneda digital que nació en el año 2009, creada por una persona —o grupo de personas— bajo el seudónimo de Satoshi Nakamoto. Su aparición marcó el inicio de una nueva era en la forma en que las personas pueden transferir y almacenar valor, sin la necesidad de intermediarios como bancos o gobiernos.
 
+A diferencia del dinero tradicional, Bitcoin no está respaldado por ninguna institución central. Funciona a través de una tecnología llamada blockchain o cadena de bloques, que actúa como un libro contable público y descentralizado. En este registro, cada transacción que ocurre queda guardada de forma permanente y transparente, accesible para cualquier persona que quiera consultarla, aunque las identidades de los usuarios están protegidas por complejas direcciones digitales.
+
+Una de las características más notables de Bitcoin es que su cantidad total está limitada: solo existirán 21 millones de bitcoins. Esto lo convierte en un recurso escaso, algo que muchos comparan con el oro, de ahí que algunos lo llamen “oro digital”. Esta escasez ha despertado el interés de inversionistas que lo ven como una reserva de valor a largo plazo.
+
+Además de su función como inversión, Bitcoin permite enviar dinero de manera rápida y con comisiones generalmente bajas, lo cual lo hace atractivo para personas que necesitan hacer transferencias internacionales o que viven en países con sistemas financieros inestables.
