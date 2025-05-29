@@ -7,3 +7,5 @@ A diferencia del dinero tradicional, Bitcoin no está respaldado por ninguna ins
 Una de las características más notables de Bitcoin es que su cantidad total está limitada: solo existirán 21 millones de bitcoins. Esto lo convierte en un recurso escaso, algo que muchos comparan con el oro, de ahí que algunos lo llamen “oro digital”. Esta escasez ha despertado el interés de inversionistas que lo ven como una reserva de valor a largo plazo.
 
 Además de su función como inversión, Bitcoin permite enviar dinero de manera rápida y con comisiones generalmente bajas, lo cual lo hace atractivo para personas que necesitan hacer transferencias internacionales o que viven en países con sistemas financieros inestables.
+
+En resumen, Bitcoin es mucho más que una moneda digital: es una propuesta para repensar cómo entendemos el dinero, el control financiero y la libertad económica. Aunque todavía está en evolución, ya ha dejado una huella profunda en el mundo moderno.
