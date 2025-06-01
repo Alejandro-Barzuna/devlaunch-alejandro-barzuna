@@ -1,0 +1,24 @@
+Proporciona una explicación detallada en un archivo .txt 
+de las acciones que realizarías al cocinar un huevo.
+
+
+Solución
+
+-Sacar el sartén
+-Sacar la espátula
+-Un plato
+-Traer la mantequilla
+-Traer la sal
+-Traer el huevo
+-Poner el sartén el fuego
+-Encender el fuego
+-Esperar a que caliente
+-Poner a derretir un poco de mantequilla
+-Romper el huevo
+-Echarlo en el sartén
+-Ponerle sal
+-Revolver con la espátula
+-Poner en un plato
+-Apagar el fuego
+-Quitar el sartén del fuego
+-Guardar sal y mantequilla
