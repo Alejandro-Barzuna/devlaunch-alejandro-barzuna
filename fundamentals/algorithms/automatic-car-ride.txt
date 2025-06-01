@@ -3,3 +3,18 @@ para prepararte para conducir un coche automático.
 
 Este ejercicio está diseñado para ayudarte a entender los conceptos básicos de los algoritmos
 al darte un ejemplo del mundo real sobre cómo llevar tu cohe a dar un paseo.
+
+
+Solución
+
+- Hacer una lista de los lugares a los que tengo o quiero ir
+- Asegurarme de tener todos los objetos esenciales conmigo
+- Abrir el carro
+- Montarme al carro
+- Encender el carro
+- Manejar al destino
+- Apagar el carro
+- Bajarme del carro
+- Cerrar el carro
+- Terminar con lo que tenía que hacer en el lugares
+- Repetir hasta volver a la casa
