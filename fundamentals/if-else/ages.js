@@ -34,7 +34,7 @@ const age = parseInt(prompt('Por favor indique su edad: '))
         
 
 if (age>=0 && age<=2){
-    console.log(`You are a baby`)
+    console.log(`You are a baby\nThe institution does not support your age, please try again.`)
 }   else if (age >= 3 && age <= 13){
         if (age<5) {
             console.log(`You are a child.\nThe institution does not support your age, please try again.`)
