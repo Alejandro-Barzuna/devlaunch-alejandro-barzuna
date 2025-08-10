@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES6",
+        "forceConsisterbtCasingInFileNames": true,
+        "strict": true
+    }
+
+}
