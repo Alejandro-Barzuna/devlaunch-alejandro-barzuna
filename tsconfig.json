@@ -2,8 +2,7 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "ES6",
-        "forceConsisterbtCasingInFileNames": true,
+        "forceConsistentCasingInFileNames": true,
         "strict": true
     }
-
 }
