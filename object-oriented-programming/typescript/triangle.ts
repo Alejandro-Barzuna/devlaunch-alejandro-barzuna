@@ -23,16 +23,24 @@ Si se cumplen las tres condiciones, entonces los lados efectivamente forman un t
 
 */
 
-const prompt = require('prompt-sync')()
+interface Triangle {
 
-const triangle = {
+    side1: number,
+    side2: number,
+    side3: number,
+}
+
+import PromptSync from "prompt-sync"
+
+const prompt = PromptSync()
+
+const triangle: Triangle = {
     side1: parseInt(prompt('Digite un numero entero: ')),
     side2: parseInt(prompt('Digite un numero entero: ')),
     side3: parseInt(prompt('Digite un numero entero: '))
 }
 
-// const isValidTriangle = (triangle) => {
-//     const { side1, side2, side3 } = triangle;
+// const isValidTriangle = ({ side1, side2, side3 }: Triangle) => {
 
 //     return (side2 + side3) > side1 && (side1 + side3) > side2 && (side1 + side2) > side3; -------->destructuracion de un objeto
 // }

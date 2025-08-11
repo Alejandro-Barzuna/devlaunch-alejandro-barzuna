@@ -33,20 +33,28 @@ transfer(toAccount, amount): transfiere fondos de la cuenta actual a otra cuenta
 
 // }
 
+interface Account {
+    id: number
+    name: string
+    balance: number
+    deposit: (amount:number) => void
+    withdraw: (amount: number) => number | null
+    transfer: (toAccount: Account, amount: number) => Account | null
+}
 
 
-function Account (id, name, balance = 0){
+function Account (id: number, name: string, balance: number = 0){
 
     this.id = id
     this.name = name
     this.balance = balance
 
-    this.deposit = (amount) => {
+    this.deposit = (amount: number) => {
         this.balance = this.balance + amount
         //this.balance += amount
     }
 
-    this.withdraw = (amount) => {
+    this.withdraw = (amount: number) => {
         if (this.balance > amount){
             this.balance -= amount
             return amount
@@ -57,7 +65,7 @@ function Account (id, name, balance = 0){
     }
     //return this
     
-    this.transfer = (toAccount, amount) => {
+    this.transfer = (toAccount: Account, amount: number) => {
         const cash = this.withdraw (amount)
 
         if (cash){
@@ -69,12 +77,12 @@ function Account (id, name, balance = 0){
     }
 }
 
-const acc1 = new Account (1, 'Alejandro', 100000)
+const acc1: Account = new (Account as any) (1, 'Alejandro', 100000)
 // acc1.deposit(1)
 // console.log(acc1.withdraw(11000))
 // console.log(acc1)
 
-const acc2 = new Account (2, 'Benito')
+const acc2: Account = new (Account as any) (2, 'Benito')
 // acc2.deposit(1)
 // console.log(acc2.withdraw(11))
 // console.log(acc2)
