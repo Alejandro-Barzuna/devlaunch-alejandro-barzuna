@@ -66,6 +66,34 @@ class Fan {
     }
 }
 
+
+/*
+
+class Fan {
+    private _speed: FanSpeed = 0 // Propiedad privada protegida
+
+    constructor(
+        public type: string,
+        public size: FanSize,
+        public color: FanColor
+    ) {}
+
+    // Getter para velocidad
+    get speed(): FanSpeed {
+        return this._speed
+    }
+
+    // Setter para velocidad con validación
+    set speed(value: FanSpeed) {
+        if (value < 0 || value > 3) {
+            throw new Error("La velocidad debe estar entre 0 y 3")
+        }
+        this._speed = value
+    }
+}
+
+*/
+
 const fan1 = new Fan ('Sony', 'small', 'black')
 
 fan1.setType ('universal')
